@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature Calculator"
+        android:textSize="25sp"
+        android:textColor="#51052B"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সেলসিয়াস স্কেলে মান দিন"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/edCelcius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Celcius"
+        android:padding="20dp"
+        android:background="@drawable/edit_round"
+
+        />
+    <Button
+        android:id="@+id/celtoFerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Celcius to Farhenheit"
+        android:textAllCaps="false"
+        android:padding="14dp"
+        />
+    <TextView
+        android:id="@+id/tvDisplay1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="#DD0CA9"
+        android:background="@drawable/edit_round"
+        />
+
+
+
+    //==========================================
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফারেনহাইট স্কেলে মান দিন"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/edFarhenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Farhenheit"
+        android:padding="20dp"
+        android:background="@drawable/edit_round"
+
+        />
+    <Button
+        android:id="@+id/fertoCelButtton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Celcius to Farhenheit"
+        android:textAllCaps="false"
+        android:padding="14dp"
+        />
+    <TextView
+        android:id="@+id/tvDisplay2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="#DD0CA9"
+        android:background="@drawable/edit_round"
+        />
+
+
+
+</LinearLayout>
